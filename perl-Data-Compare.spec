@@ -5,13 +5,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Compare
-Summary:	Data::Compare perl module
-Summary(pl):	Modu³ perla Data::Compare
+Summary:	Data::Compare - compare Perl data structures
+Summary(pl):	Data::Compare - porównywanie struktur danych w Perlu
 Name:		perl-Data-Compare
 Version:	0.1
 Release:	1
-# same as Perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e5767db3c11416ab474b87b8b50bf841
@@ -25,10 +25,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data::Compare perl module - compare perl data structures.
+Data::Compare module compares two Perl data structures recursively.
 
 %description -l pl
-Modu³ perla Data::Compare s³u¿y do porównywania struktur danych.
+Modu³ Data::Compare s³u¿y do rekurencyjnego porównywania dwóch
+struktur danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
