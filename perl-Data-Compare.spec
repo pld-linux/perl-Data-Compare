@@ -26,7 +26,7 @@ Modu³ perla Data::Compare s³u¿y do porównywania struktur danych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
