@@ -8,13 +8,13 @@
 Summary:	Data::Compare perl module
 Summary(pl):	Modu³ perla Data::Compare
 Name:		perl-Data-Compare
-Version:	0.09
+Version:	0.1
 Release:	1
 # same as Perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	ad6a8f71a01ff811aa76552070facdc6
+# Source0-md5:	e5767db3c11416ab474b87b8b50bf841
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.8
 %if %{with tests}
@@ -51,4 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{perl_vendorlib}/Data/Compare.pm
+%{perl_vendorlib}/Data/Compare/Plugins
 %{_mandir}/man3/*
