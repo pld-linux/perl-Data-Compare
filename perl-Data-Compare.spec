@@ -2,8 +2,8 @@
 Summary:	Data-Compare perl module
 Summary(pl):	Modu³ perla Data-Compare
 Name:		perl-Data-Compare
-Version:	0.01
-Release:	5
+Version:	0.02
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
