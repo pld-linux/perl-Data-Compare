@@ -9,7 +9,7 @@ Summary:	Data::Compare - compare Perl data structures
 Summary(pl):	Data::Compare - porównywanie struktur danych w Perlu
 Name:		perl-Data-Compare
 Version:	0.1
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
