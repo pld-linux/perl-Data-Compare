@@ -5,7 +5,7 @@ Summary:	Data::Compare perl module
 Summary(pl):	Modu³ perla Data::Compare
 Name:		perl-Data-Compare
 Version:	0.02
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
