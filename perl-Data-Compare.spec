@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Compare
-Summary:	Data-Compare perl module
-Summary(pl):	Modu³ perla Data-Compare
+Summary:	Data::Compare perl module
+Summary(pl):	Modu³ perla Data::Compare
 Name:		perl-Data-Compare
 Version:	0.02
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-Compare perl module - compare perl data structures.
+Data::Compare perl module - compare perl data structures.
 
 %description -l pl
-Modu³ perla Data-Compare s³u¿y do porównywania struktur danych.
+Modu³ perla Data::Compare s³u¿y do porównywania struktur danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
