@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Compare
+%define		pdir	Data
+%define		pnam	Compare
 Summary:	Data::Compare - compare Perl data structures
 Summary(pl):	Data::Compare - porównywanie struktur danych w Perlu
 Name:		perl-Data-Compare
