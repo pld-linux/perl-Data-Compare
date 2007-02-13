@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Compare
 Summary:	Data::Compare - compare Perl data structures
-Summary(pl.UTF-8):   Data::Compare - porównywanie struktur danych w Perlu
+Summary(pl.UTF-8):	Data::Compare - porównywanie struktur danych w Perlu
 Name:		perl-Data-Compare
 Version:	0.13
 Release:	1
