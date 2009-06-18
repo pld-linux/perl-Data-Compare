@@ -8,14 +8,14 @@
 Summary:	Data::Compare - compare Perl data structures
 Summary(pl.UTF-8):	Data::Compare - porównywanie struktur danych w Perlu
 Name:		perl-Data-Compare
-Version:	1.18
+Version:	1.2101
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5a11c6252cbdc695b17da7d6f361f410
+# Source0-md5:	f738313ee50b48f090f4ae760070fc0e
 URL:		http://search.cpan.org/dist/Data-Compare/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
