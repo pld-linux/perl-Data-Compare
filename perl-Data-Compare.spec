@@ -10,7 +10,7 @@ Name:		perl-Data-Compare
 # fill to four decimal digits to avoid epoch bumps after 1.2102
 %define	ver	1.25
 Version:	%{ver}00
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
